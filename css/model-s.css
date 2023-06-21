@@ -1,0 +1,62 @@
+.navbar {
+    position: relative;
+    z-index: 1;
+    border-color: white;
+    border-width: 4px;
+    border-style: solid;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: black;
+  }
+  .navbar .container-fluid img {
+    margin-right: 20px;
+  }
+
+
+  .collapse .nav-item .nav-link {
+    color: white;
+  }
+  .collapse .nav-item .nav-link:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  .content {
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.124);
+    margin: 0;
+    z-index: -1px;
+  }
+  .button-bottom {
+    text-align: center;
+   
+  }
+  .button-bottom button {
+    background-color: rgba(0, 0, 0, 0.092);
+    color: white;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: bold;
+    border-radius: 100px;
+  }
+  .d-flex button {
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.238);
+    color: white;
+    border-radius: 100px;
+    font-weight: bold;
+  }
+  .d-flex input {
+     background-color: rgba(0, 0, 0, 0.249);
+     color: white;
+  }
+.nav {
+    overflow-x: scroll;
+    white-space: nowrap; /* Prevents line breaks */
+}
+  .nav .nav-item .nav-link {
+    color: white;
+  }
